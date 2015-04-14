@@ -7,14 +7,17 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class MilchserverKernPlugin extends JavaPlugin {
 	
+	@Override
 	public void onEnable() {
 		System.out.println("Milchserver Kernplugin aktiviert!");
 	}
 	
+	@Override
 	public void onDisable() {
 		System.out.println("Milchserver Kernplugin deaktiviert!");
 	}
 	
+	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandlabel,String[] args) {
 		Player player = (Player) sender;
 		boolean kern = true;
