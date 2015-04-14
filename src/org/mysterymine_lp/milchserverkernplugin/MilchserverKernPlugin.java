@@ -20,11 +20,10 @@ public class MilchserverKernPlugin extends JavaPlugin {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandlabel,String[] args) {
 		Player player = (Player) sender;
-		boolean kern = true;
 		if(cmd.getName().equalsIgnoreCase("ping"))
 		{
 			player.sendMessage("Pong!");
-			kern = false;
+			return true;
 		}
 		else if(cmd.getName().equalsIgnoreCase("heilen"))
 		{
@@ -32,15 +31,15 @@ public class MilchserverKernPlugin extends JavaPlugin {
 			{
 				player.setHealth(20);
 				player.sendMessage("Geheilt!");
-				kern = false;
+				return true;
 			}
 			else;
 			{
 				player.sendMessage("§4Keine Berechtigung!");
-				kern = false;
+				return true;
 			}
 		}
-		return kern;
+		return false;
 	}
 
 }
