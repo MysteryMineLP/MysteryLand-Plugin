@@ -26,7 +26,7 @@ public class MilchserverKernPlugin extends JavaPlugin {
 			player.sendMessage("Pong!");
 			kern = false;
 		}
-		if(cmd.getName().equalsIgnoreCase("heilen"))
+		else if(cmd.getName().equalsIgnoreCase("heilen"))
 		{
 			if(player.isOp())
 			{
