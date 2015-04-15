@@ -1,7 +1,18 @@
 name: Milchserver_Kernplugin
-version: 0.1
+version: 0.2
 description: Das Milchserver Kern Plugin
 author: MysteryMine_LP
 website: http://mysterymine-lp.jimdo.com
+prefix: Milchserver Kernplugin
 
 main: org.mysterymine_lp.milchserverkernplugin.MilchserverKernPlugin
+
+commands:
+   ping:
+     description: Server anpingen!
+     usage: Falsche Benutzung! Schreibe "/<command>"!
+     
+   heilen:
+     description: Heilt dich!
+     aliases: [heal]
+     usage: Falsche Benutzung! Schreibe "/<command>"!

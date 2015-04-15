@@ -1,7 +1,0 @@
-name: Milchserver_Kernplugin
-version: 0.1
-description: Das Milchserver Kern Plugin
-author: MysteryMine_LP
-website: http://mysterymine-lp.jimdo.com
-
-main: org.mysterymine_lp.milchserverkernplugin.MilchserverKernPlugin
