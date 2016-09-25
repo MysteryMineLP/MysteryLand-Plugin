@@ -1,11 +1,11 @@
-name: Milchserver_Kernplugin
-version: 0.2
-description: Das Milchserver Kern Plugin
-author: MysteryMine_LP
-website: http://mysterymine-lp.jimdo.com
-prefix: Milchserver Kernplugin
+name: MysteryLandPlugin
+version: 0.1
+description: Das Hauptplugin für den MysteryLand Minecraft Server.
+author: MysteryMineLP
+website: http://youtube.de/MysteryMineLP
+prefix: MysteryLand
 
-main: org.mysterymine_lp.milchserverkernplugin.MilchserverKernPlugin
+main: mysteryminelp.MysteryLandPlugin.MysteryLandPlugin
 
 commands:
    ping:
