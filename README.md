@@ -1,4 +1,5 @@
-# Milchserver Kernplugin
-Das Kernplugin für den Milchserver!
+# MysteryLand Plugin
+Das Hauptplugin für den MysteryLand Minecraft Server.
 
-Jeder darf es bearbeiten und auf seinem Server benutzen!
+Der Code darf für jedes Projekt bearbeitet, benutzt oder verkauft solange ihr mich in eurem Projekt erwähnt!
+Für weitere Informationen, sehe dir bitte die "LICENSE" Datei an!
