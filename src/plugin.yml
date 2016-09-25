@@ -5,7 +5,7 @@ author: MysteryMineLP
 website: http://youtube.de/MysteryMineLP
 prefix: MysteryLand
 
-main: mysteryminelp.MysteryLandPlugin.MysteryLandPlugin
+main: mysteryminelp.MysteryLandPlugin.Core
 
 commands:
    ping:
