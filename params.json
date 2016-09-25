@@ -1,7 +1,7 @@
 {
-  "name": "Milchserver Kernplugin",
-  "tagline": "Das Milchserver Kernplugin",
-  "body": "# Milchserver Kernplugin\r\nDas Kernplugin für den Milchserver!\r\n\r\nJeder darf es bearbeiten und auf seinem Server benutzen!\r\n",
+  "name": "MysteryLand Plugin",
+  "tagline": "Das Hauptplugin für den MysteryLand Minecraft Server.",
+  "body": "# MysteryLand Plugin\r\n\r\nDer Code darf für jedes Projekt bearbeitet, benutzt oder sogar verkauft werden, solang du mich in deinem Projekt erwähnst!\r\nFür weitere Informationen, sehe dir bitte die \"LICENSE\" Datei an!",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
