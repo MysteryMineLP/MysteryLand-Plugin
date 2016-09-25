@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: MysteryLandPlugin
 version: 0.1
 description: Das Hauptplugin für den MysteryLand Minecraft Server.
@@ -15,4 +16,23 @@ commands:
    heilen:
      description: Heilt dich!
      aliases: [heal]
+=======
+name: MysteryLandPlugin
+version: 0.1
+description: Das Hauptplugin für den MysteryLand Minecraft Server.
+author: MysteryMineLP
+website: http://youtube.de/MysteryMineLP
+prefix: MysteryLand
+
+main: mysteryminelp.MysteryLandPlugin.MysteryLandPlugin
+
+commands:
+   ping:
+     description: Server anpingen!
+     usage: Falsche Benutzung! Schreibe "/<command>"!
+     
+   heilen:
+     description: Heilt dich!
+     aliases: [heal]
+>>>>>>> origin/master
      usage: Falsche Benutzung! Schreibe "/<command>"!
