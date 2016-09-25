@@ -5,7 +5,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class MysteryLandPlugin extends JavaPlugin {
+public class Core extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
@@ -41,5 +41,4 @@ public class MysteryLandPlugin extends JavaPlugin {
 		}
 		return false;
 	}
-
 }
